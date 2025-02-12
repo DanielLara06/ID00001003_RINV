@@ -1,0 +1,84 @@
+basicblocks/
+aip-sim-lib/
+*.txt
+*.dat
+#### Quartus Temporary Files ######
+db/
+incremental_db/
+*.rpt
+*.smsg
+*.summary
+*.jdi
+*.done
+*.lock
+
+## Simulation Files:
+simulation/modelsim
+*.wlf
+*.log
+*.bak
+
+## Quartus Project Files:
+# (Quartus workspace file)
+*.qws 
+*.qdf
+# (Quartus project file)
+*.qpf
+*.cdf
+# *.pof
+*.sopcinfo
+*.sld
+*.sof
+*.qsf
+*info.json
+
+
+## Synthesis and Compilation Intermediate Files:
+*.bak
+*.rdb
+*.rpt
+*.smsg
+*.summary
+*.jdi
+
+## Auto-generated Files:
+*.sopcinfo 
+*.qip
+*.ipx 
+
+## Simulation Output:
+*.vho 
+*.vqm 
+
+####################################
+
+############# MATLAB  ##############
+## Temporary Files
+*.asv 
+*.m~
+*.mat
+
+## Generated Files:
+*.p
+*.mex*
+*.slx
+*.sldd
+*.slprj
+
+##Logs and Reports:
+*.html
+*.xml
+*.mldatx
+.matlab*
+.DS_Store
+*.log
+#Dependencies:
+/toolbox/
+
+####################################
+## python ##
+__pycache__/
+/.idea/
+driver/.idea/
+driver/venv/
+*.iml
