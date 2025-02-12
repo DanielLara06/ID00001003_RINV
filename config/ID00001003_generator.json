@@ -1,0 +1,51 @@
+{
+    "ipdata": {
+        "comment": "R_INV AIP Interface",
+        "enom": "R_INV",
+        "ipid": "00001003"
+    },
+    "memories": {
+        "cfgReg": {
+            "comment": "Configuration Register for R_INV",
+            "enom": "CCONF",
+            "size": "1",
+            "val": "5'b00100"
+        },
+        "memIn": [
+            {
+                "comment": "R Input Memory",
+                "enom": "MMEM_R_I",
+                "size": "4096",
+                "val": "5'b00000"
+            }
+        ],
+        "memInStream": {
+        },
+        "memOut": [
+            {
+                "comment": "R_INV Output Memory",
+                "enom": "MMEM_R_INV_O",
+                "size": "4096",
+                "val": "5'b00010"
+            }
+        ],
+        "memOutStream": {
+        }
+    },
+    "regs": {
+        "reg1": "",
+        "reg10": "",
+        "reg11": "",
+        "reg12": "",
+        "reg13": "",
+        "reg14": "",
+        "reg15": "",
+        "reg2": "",
+        "reg3": "",
+        "reg4": "",
+        "reg5": "",
+        "reg6": "",
+        "reg7": "",
+        "reg9": ""
+    }
+}

@@ -1,0 +1,232 @@
+Restore Archived Project report for ID00001003_R_INV
+Wed Feb 12 12:41:38 2025
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Wed Feb 12 12:41:38 2025 ;
+; Revision Name                   ; ID00001003_R_INV                      ;
+; Top-level Entity Name           ; ipm_ID00001003_R_INV                  ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Dani/Cores/R_INV2/ID00001003_R_INV.qar' into the 'C:/Dani/Cores/R_INV2/R_INV_AIP/' directory
+Info: Generated report 'ID00001003_R_INV.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/20.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4824 megabytes
+    Info: Processing ended: Wed Feb 12 12:41:38 2025
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++-------------------------------------------------------------------------------+
+; Files Restored                                                                ;
++-------------------------------------------------------------------------------+
+; File Name                                                                     ;
++-------------------------------------------------------------------------------+
+; qar_info.json                                                                 ;
+; Divider_Core2/DividerCore_Pipeline/DividerCore_Pipeline.v                     ;
+; Divider_Core2/DividerCore_Pipeline/DividerCore_Pipeline_ControlMachine.v      ;
+; Divider_Core2/DividerCore_Pipeline/DividerCore_Pipeline_Encoder.v             ;
+; Divider_Core2/DividerCore_Pipeline/DividerCore_Pipeline_InputBarrelShifter.v  ;
+; Divider_Core2/DividerCore_Pipeline/DividerCore_Pipeline_NewtonRaphson.v       ;
+; Divider_Core2/DividerCore_Pipeline/DividerCore_Pipeline_OutputBarrelShifter.v ;
+; Divider_Core2/DividerCore_Pipeline/DividerCore_Pipeline_PolynomialApprox.v    ;
+; Divider_Core2/DividerCore_Pipeline/DividerCore_Pipeline_Register.v            ;
+; Divider_Core2/DividerCore_Pipeline/DividerCore_Pipeline_SignConverter.v       ;
+; Divider_Core2/DividerCore_Pipeline/DividerCore_Pipeline_TB.v                  ;
+; ID00001003_R_INV.qpf                                                          ;
+; ID00001003_R_INV.qsf                                                          ;
+; ID00001003_R_INV.v                                                            ;
+; ID00001003_R_INVTB.sv                                                         ;
+; ID00001003_aip.v                                                              ;
+; R_INV_2/Add_imag.v                                                            ;
+; R_INV_2/Adder_3_1.v                                                           ;
+; R_INV_2/Adder_C.v                                                             ;
+; R_INV_2/Adder_C2.v                                                            ;
+; R_INV_2/Adder_N_1.v                                                           ;
+; R_INV_2/Adder_N_N.v                                                           ;
+; R_INV_2/Adder_Out.v                                                           ;
+; R_INV_2/Adder_aux_count2_count_acumm2.v                                       ;
+; R_INV_2/Adder_count2.v                                                        ;
+; R_INV_2/Adder_count_acumm.v                                                   ;
+; R_INV_2/Adder_count_acumm2.v                                                  ;
+; R_INV_2/Adder_count_d.v                                                       ;
+; R_INV_2/Adder_count_diag.v                                                    ;
+; R_INV_2/Adder_d.v                                                             ;
+; R_INV_2/Adder_dd.v                                                            ;
+; R_INV_2/Adder_dd_1_C2.v                                                       ;
+; R_INV_2/Adder_elmnts_iter.v                                                   ;
+; R_INV_2/Adder_i.v                                                             ;
+; R_INV_2/Adder_i_1.v                                                           ;
+; R_INV_2/Adder_ii.v                                                            ;
+; R_INV_2/Adder_iii.v                                                           ;
+; R_INV_2/Adder_iii_C.v                                                         ;
+; R_INV_2/Adder_non_zero_elemnts.v                                              ;
+; R_INV_2/Adder_non_zero_iter.v                                                 ;
+; R_INV_2/Adder_temp2.v                                                         ;
+; R_INV_2/Adder_temp3.v                                                         ;
+; R_INV_2/Adder_val_count_acumm.v                                               ;
+; R_INV_2/Adder_val_d.v                                                         ;
+; R_INV_2/Adder_x_d.v                                                           ;
+; R_INV_2/Comp_N_N.v                                                            ;
+; R_INV_2/Comp_R.v                                                              ;
+; R_INV_2/Comp_d.v                                                              ;
+; R_INV_2/Comp_dd.v                                                             ;
+; R_INV_2/Comp_elemnts_iter.v                                                   ;
+; R_INV_2/Comp_i.v                                                              ;
+; R_INV_2/Comp_ii.v                                                             ;
+; R_INV_2/Comp_iii.v                                                            ;
+; R_INV_2/Comp_non_zero_iter.v                                                  ;
+; R_INV_2/Comp_out_pointer.v                                                    ;
+; R_INV_2/Comp_s.v                                                              ;
+; R_INV_2/Comp_ss.v                                                             ;
+; R_INV_2/Comp_x_d.v                                                            ;
+; R_INV_2/Comp_z.v                                                              ;
+; R_INV_2/FSM.v                                                                 ;
+; R_INV_2/Mult_imag1.v                                                          ;
+; R_INV_2/Mult_imag2.v                                                          ;
+; R_INV_2/Mult_real1.v                                                          ;
+; R_INV_2/Mult_real2.v                                                          ;
+; R_INV_2/R_INV.v                                                               ;
+; R_INV_2/R_INV_top_tb.v                                                        ;
+; R_INV_2/Reg_C.v                                                               ;
+; R_INV_2/Reg_C2.v                                                              ;
+; R_INV_2/Reg_N_N.v                                                             ;
+; R_INV_2/Reg_Out.v                                                             ;
+; R_INV_2/Reg_R_vector.v                                                        ;
+; R_INV_2/Reg_aux_count.v                                                       ;
+; R_INV_2/Reg_aux_count2.v                                                      ;
+; R_INV_2/Reg_aux_count3.v                                                      ;
+; R_INV_2/Reg_aux_imag.v                                                        ;
+; R_INV_2/Reg_aux_real.v                                                        ;
+; R_INV_2/Reg_cont2.v                                                           ;
+; R_INV_2/Reg_count2.v                                                          ;
+; R_INV_2/Reg_count_N.v                                                         ;
+; R_INV_2/Reg_count_acumm.v                                                     ;
+; R_INV_2/Reg_count_acumm2.v                                                    ;
+; R_INV_2/Reg_count_diag.v                                                      ;
+; R_INV_2/Reg_count_elemnts.v                                                   ;
+; R_INV_2/Reg_d.v                                                               ;
+; R_INV_2/Reg_dd.v                                                              ;
+; R_INV_2/Reg_elemnts_iter.v                                                    ;
+; R_INV_2/Reg_i.v                                                               ;
+; R_INV_2/Reg_ii.v                                                              ;
+; R_INV_2/Reg_iii.v                                                             ;
+; R_INV_2/Reg_index_r.v                                                         ;
+; R_INV_2/Reg_index_r_sorted.v                                                  ;
+; R_INV_2/Reg_multi_add_imag.v                                                  ;
+; R_INV_2/Reg_multi_add_real.v                                                  ;
+; R_INV_2/Reg_non_zero.v                                                        ;
+; R_INV_2/Reg_non_zero_iter.v                                                   ;
+; R_INV_2/Reg_regresive_count.v                                                 ;
+; R_INV_2/Reg_s.v                                                               ;
+; R_INV_2/Reg_ss.v                                                              ;
+; R_INV_2/Reg_temp2.v                                                           ;
+; R_INV_2/Reg_temp3.v                                                           ;
+; R_INV_2/Reg_val_d.v                                                           ;
+; R_INV_2/Reg_x_d.v                                                             ;
+; R_INV_2/Subs_N_iii_C.v                                                        ;
+; R_INV_2/Subs_cont2.v                                                          ;
+; R_INV_2/Subs_count_elmnts.v                                                   ;
+; R_INV_2/Subs_dd_1.v                                                           ;
+; R_INV_2/Subs_real.v                                                           ;
+; R_INV_2/Subs_regresive_count.v                                                ;
+; R_INV_2/index_r.v                                                             ;
+; R_INV_2/index_r_sorted.v                                                      ;
+; R_INV_2/mux.v                                                                 ;
+; R_INV_2/mux2.v                                                                ;
+; R_INV_2/mux_3_1.v                                                             ;
+; R_INV_2/s_adder.v                                                             ;
+; R_INV_2/simple_dual_port_ram_single_clk_i.v                                   ;
+; R_INV_2/simple_dual_port_ram_single_clk_o.v                                   ;
+; R_INV_2/simple_rom_sv.sv                                                      ;
+; R_INV_2/ss_adder.v                                                            ;
+; basicblocks/aip/aipConfigurationRegister.v                                    ;
+; basicblocks/aip/aipId.v                                                       ;
+; basicblocks/aip/aipParametricMux.v                                            ;
+; basicblocks/aip/aipStatus.v                                                   ;
+; basicblocks/arithmetic/abs.v                                                  ;
+; basicblocks/arithmetic/comparatorEqual.v                                      ;
+; basicblocks/arithmetic/comparatorGreaterThan.v                                ;
+; basicblocks/arithmetic/comparatorLessThan.v                                   ;
+; basicblocks/arithmetic/complexAdder.v                                         ;
+; basicblocks/arithmetic/complexSubtractor.v                                    ;
+; basicblocks/arithmetic/realAdder.v                                            ;
+; basicblocks/arithmetic/signExtension.v                                        ;
+; basicblocks/arithmetic/signInverter.v                                         ;
+; basicblocks/arithmetic/squareNorm.v                                           ;
+; basicblocks/combinational/complexMuxNto1.v                                    ;
+; basicblocks/combinational/muxNto1.v                                           ;
+; basicblocks/combinational/rightBarrelShifter.v                                ;
+; basicblocks/combinational/wordCombiner.v                                      ;
+; basicblocks/combinational/wordSplitter.v                                      ;
+; basicblocks/ipm/ipm.v                                                         ;
+; basicblocks/ipm/ipm_register.v                                                ;
+; basicblocks/memories/simple_dual_port_ram_single_clk.v                        ;
+; basicblocks/noc_interface/ID.v                                                ;
+; basicblocks/noc_interface/NoC_interface.v                                     ;
+; basicblocks/noc_interface/configuration_register.v                            ;
+; basicblocks/noc_interface/ctrl_interface.v                                    ;
+; basicblocks/noc_interface/intfPkg.sv                                          ;
+; basicblocks/noc_interface/status.v                                            ;
+; basicblocks/sequential/complexRegister.v                                      ;
+; basicblocks/sequential/register.v                                             ;
+; basicblocks/sequential/shiftRegister.v                                        ;
+; basicblocks/sequential/smExample.v                                            ;
+; basicblocks/sequential/upCounter.v                                            ;
+; ipm_ID00001003_R_INV.v                                                        ;
+; mux3_1.v                                                                      ;
+; mux3_1_U70.v                                                                  ;
+; mux3_1_U77.v                                                                  ;
+; output_files/signal_tap_RINV.stp                                              ;
+; r_inv_2/r.txt                                                                 ;
+; assignment_defaults.qdf                                                       ;
++-------------------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
