@@ -1,5 +1,5 @@
-basicblocks/
-aip-sim-lib/
+#basicblocks/
+#aip-sim-lib/
 *.txt
 *.dat
 #### Quartus Temporary Files ######
